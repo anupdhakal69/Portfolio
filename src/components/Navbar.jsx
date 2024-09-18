@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { useState } from "react";
 
 
 const Navbar = () => {
@@ -11,7 +10,7 @@ const Navbar = () => {
     <>
       <header className="flex justify-around  items-center sticky top-0 py-5  mt-6 tracking-[1.1px]">
 
-          <div className="sm:hidden" onClick={()=>setHamVisible(!hamVisible)}>
+          <div className="sm:hidden">
           <RxHamburgerMenu className="cursor-pointer"/>
           </div>
 
