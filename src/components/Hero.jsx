@@ -1,10 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import anup from '../assets/anuppng.png'
-import github from '../assets/github.svg'
-import linkedin from '../assets/linkedin.svg'
-import mail from '../assets/mail.svg'
-import youtube from '../assets/youtube.svg'
 import { toast } from 'react-toastify';
 
 const Hero = () => {

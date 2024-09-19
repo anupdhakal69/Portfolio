@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
-    <div >
+    <div>
       <Navbar />
       <ToastContainer theme='dark' autoClose={2500} transition={Flip} position='top-right'/>
       <Routes>
@@ -22,7 +22,7 @@ const App = () => {
         <Route path='/services' element={<Services />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
