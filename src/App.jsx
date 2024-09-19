@@ -6,12 +6,16 @@ import Footer from './components/Footer'
 import About from './pages/About'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
+import { ToastContainer, Zoom ,Slide, Flip} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const App = () => {
   return (
-    <div className='mx-16'>
+    <div >
       <Navbar />
+      <ToastContainer theme='dark' autoClose={2500} transition={Flip} position='top-right'/>
       <Routes>
         <Route path='/' element= {<Home />} />
         <Route path='/about' element={<About />} />

@@ -8,18 +8,18 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="flex justify-around  items-center sticky top-0 py-5  mt-6 tracking-[1.1px]">
+      <header className="flex justify-between max-w-[900px]  mx-auto items-center sticky top-0 py-5  mt-6 tracking-[1.1px]">
 
           <div className="sm:hidden">
           <RxHamburgerMenu className="cursor-pointer"/>
           </div>
 
           <div>
-            <Link to={"/"}><p className="text-2xl tracking-wider font-semibold"><span className="text-orange-400">A</span>nup </p></Link>
+            <Link to={"/"}><p className="text-3xl tracking-wider font-semibold"><span className="text-orange-400">A</span>nup </p></Link>
           </div>
 
 
-          <nav className="sm:flex hidden gap-8 text-lg">
+          <nav className="sm:flex hidden gap-8 text-xl ">
                <NavLink to={"/"} className={({isActive}) => `${isActive ? 'text-orange-400': ""} hover:text-gray-400 duration-200` }>Home</NavLink>
 
                <NavLink to={"/services"} className={({isActive}) => `${isActive ? 'text-orange-400': ""} hover:text-gray-400 duration-200` }>Services</NavLink>
