@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
 
 
-          <nav className="sm:flex hidden gap-8 font-medium text-xl ">
+          <nav className="sm:flex hidden gap-8 font-medium atext-xl ">
                <NavLink to={"/"} className={({isActive}) => `${isActive ? 'text-orange-400': ""} hover:text-gray-400 duration-200` }>Home</NavLink>
 
                <NavLink to={"/services"} className={({isActive}) => `${isActive ? 'text-orange-400': ""} hover:text-gray-400 duration-200` }>Services</NavLink>
