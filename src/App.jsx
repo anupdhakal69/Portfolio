@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
-    <div >
+    <div > 
       <Navbar />
       {/* <ToastContainer theme='dark' autoClose={2500} transition={Flip} position='top-right'/> */}
       <Routes>

@@ -1,16 +1,18 @@
 import { NavLink, Link } from 'react-router-dom';
-import { IoMdMenu } from "react-icons/io";
+import { TbMenuDeep } from "react-icons/tb";
 
 
 const Navbar = () => {
+
+
   return (
-    <div className='h-12 w-full flex justify-around items-center bg-slate-300 '>
+    <div className='h-16 w-full flex justify-between md:justify-evenly items-center '>
 
-       <img src="../logo.png" alt="" className='w-28 md:w-36'/>
+       <img src="../logo.png" alt="" className='w-36'/>
 
-       <IoMdMenu className='md:hidden'/>
+       <TbMenuDeep className='md:hidden text-4xl cursor-pointer mr-6'/>
 
-       <ul className='hidden md:flex gap-10'>
+       <ul className='hidden md:flex gap-12 text-lg font-medium'>
           <li>
             <NavLink to='/'>Home</NavLink>
           </li>
@@ -25,7 +27,7 @@ const Navbar = () => {
           </li>
        </ul>
 
-       <button className='hidden md:block'> <Link to='/contact'> Contact Me </Link> </button>
+       <button className='hidden md:block bg-teal-700 text-white py-2 px-5 rounded-full'> <Link to='/contact'> Contact Me </Link> </button>
     </div>
   )
 }
