@@ -8,6 +8,7 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import { ToastContainer, Zoom ,Slide, Flip} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Skills from './pages/Skills'
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/services' element={<Services />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/skills' element={<Skills />} />
       </Routes>
       {/* <Footer /> */}
     </div>
