@@ -1,37 +1,33 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { NavLink, Link } from 'react-router-dom';
+import { IoMdMenu } from "react-icons/io";
 
 
 const Navbar = () => {
-
-
   return (
-    <>
-      <header className="flex justify-between max-w-[900px]  mx-auto items-center sticky top-0 py-5  mt-6 tracking-[1.1px]">
+    <div className='h-12 w-full flex justify-around items-center bg-slate-300 '>
 
-          <div className="sm:hidden">
-          <RxHamburgerMenu className="cursor-pointer"/>
-          </div>
+       <img src="../logo.png" alt="" className='w-28 md:w-36'/>
 
-          <div>
-            <Link to={"/"}><p className="text-3xl tracking-wider font-semibold"><span className="text-orange-400">A</span>nup </p></Link>
-          </div>
+       <IoMdMenu className='md:hidden'/>
 
+       <ul className='hidden md:flex gap-10'>
+          <li>
+            <NavLink to='/'>Home</NavLink>
+          </li>
+          <li>
+            <NavLink to='/about'>About</NavLink>
+          </li>
+          <li>
+            <NavLink to='/skills'>Skills</NavLink>
+          </li>
+          <li>
+            <NavLink to='/services'>Services</NavLink>
+          </li>
+       </ul>
 
-          <nav className="sm:flex hidden gap-8 font-medium atext-xl ">
-               <NavLink to={"/"} className={({isActive}) => `${isActive ? 'text-orange-400': ""} hover:text-gray-400 duration-200` }>Home</NavLink>
-
-               <NavLink to={"/services"} className={({isActive}) => `${isActive ? 'text-orange-400': ""} hover:text-gray-400 duration-200` }>Services</NavLink>
-
-               <NavLink to={"/about"} className={({isActive}) => `${isActive ? 'text-orange-400': ""} hover:text-gray-400 duration-200` }>About</NavLink>
-
-               <NavLink to={"/contact"} className={({isActive}) => `${isActive ? 'text-orange-400': ""} hover:text-gray-400 duration-200` } >Contact</NavLink>
-          </nav>
-
-      </header>
-    </>
+       <button className='hidden md:block'> <Link to='/contact'> Contact Me </Link> </button>
+    </div>
   )
-};
+}
 
-export default Navbar;  
+export default Navbar
