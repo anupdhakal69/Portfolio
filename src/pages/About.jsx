@@ -1,7 +1,5 @@
 import React from 'react'
 import github from "../assets/github.svg"
-import youtube from "../assets/youtube.svg"
-import linkedin from "../assets/linkedin.svg"
 import { Link } from 'react-router-dom'
 
 const About = () => {
