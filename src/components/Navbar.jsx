@@ -40,9 +40,9 @@ const Navbar = () => {
 
        {/* sidebar menu for mobile screens */}
         <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-gray-300 transition-all ${showMenu ? 'w-1/2':'w-0'}`}>
-            <div className='flex flex-col  font-medium'>
-                <IoClose className='text-3xl cursor-pointer my-4 ml-32' onClick={toggleMenu}/>
-                <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/" >Home</NavLink>
+            <div className='flex flex-col font-medium'>
+                <IoClose className='text-3xl cursor-pointer my-4 absolute right-3' onClick={toggleMenu}/>
+                <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl mt-12" to="/" >Home</NavLink>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/about" >About</NavLink>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/skills" >Skills</NavLink>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/services" >Services</NavLink>
