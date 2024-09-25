@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='h-16 w-full flex justify-between sm:justify-evenly items-center '>
 
        <Link to={'/'}>
-         <img src="../logo.png" alt="" className=' w-32 '/>
+         <img src="../logo2.png" alt="" className=' w-40 '/>
        </Link>
 
        <TbMenuDeep className='sm:hidden text-3xl cursor-pointer mr-6' onClick={toggleMenu}/>
@@ -39,13 +39,13 @@ const Navbar = () => {
        <button className='hidden sm:block bg-teal-700 hover:bg-teal-900 duration-200 text-white py-2 px-5 rounded-full'> <Link to='/contact'> Contact Me </Link> </button>
 
        {/* sidebar menu for mobile screens */}
-        <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-gray-200 transition-all ${showMenu ? 'w-1/3':'w-0'}`}>
+        <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-gray-300 transition-all ${showMenu ? 'w-1/2':'w-0'}`}>
             <div className='flex flex-col  font-medium'>
                 <IoClose className='text-3xl cursor-pointer my-4 ml-4' onClick={toggleMenu}/>
-                <NavLink onClick={toggleMenu} className="py-2 pl-6 " to="/" >Home</NavLink>
-                <NavLink onClick={toggleMenu} className="py-2 pl-6 " to="/about" >About</NavLink>
-                <NavLink onClick={toggleMenu} className="py-2 pl-6 " to="/skills" >Skills</NavLink>
-                <NavLink onClick={toggleMenu} className="py-2 pl-6 " to="/services" >Services</NavLink>
+                <NavLink onClick={toggleMenu} className="py-2 pl-6 text-xl" to="/" >Home</NavLink>
+                <NavLink onClick={toggleMenu} className="py-2 pl-6 text-xl" to="/about" >About</NavLink>
+                <NavLink onClick={toggleMenu} className="py-2 pl-6 text-xl" to="/skills" >Skills</NavLink>
+                <NavLink onClick={toggleMenu} className="py-2 pl-6 text-xl" to="/services" >Services</NavLink>
             </div>
         </div>
        
