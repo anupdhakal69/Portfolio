@@ -6,7 +6,7 @@ import youtube from "../assets/youtube.svg"
 const Hero = () => {
   return (
 
-    <div className='px-2 max-w-[400px] flex flex-col gap-5 items-center justify-center sm:max-w-[920px]  mx-auto h-[calc(100vh-80px)]'>
+    <div className='px-2 max-w-[400px] flex flex-col gap-5 items-center justify-center sm:max-w-[900px]  mx-auto h-[calc(100vh-80px)]'>
 
         <img src="anup.jpg" alt="" className='h-48 sm:h-56 w-48 sm:w-56 object-cover rounded-full'/>
 
@@ -16,12 +16,12 @@ const Hero = () => {
         </div>
 
         <div className="socials flex gap-4 my-[-8px]">
-          <Link to={'https://github.com/anupdhakal69'} ><img src={github} alt="" className='w-6 sm:w-5'/></Link>
-          <Link to={'https://www.youtube.com/@anupdhakal69'} ><img src={youtube} alt="" className='w-7 sm:w-5'/></Link>
+          <Link to={'https://github.com/anupdhakal69'} ><img src={github} alt="" className='w-6 sm:w-5' title='github'/></Link>
+          <Link to={'https://www.youtube.com/@anupdhakal69'} ><img src={youtube} alt="" className='w-7 sm:w-5' title='youtube'/></Link>
         </div>
 
-        <div className='flex gap-5 mb-12 sm:mb-0'>
-          <button className='py-2 px-7 tracking-wide font-medium border rounded-full bg-gradient-to-r from-teal-500 to-sky-500 text-lg text-white'>Hire Me</button>
+        <div className='flex gap-5 mb-12 sm:mb-0 transition-all'>
+          <button className='py-2 px-7 tracking-wide font-medium border rounded-full bg-gradient-to-r from-teal-500 to-sky-500 text-lg text-white hover:scale-110 ease-in-out duration-200'>Hire Me</button>
           <button className='py-2 px-7 tracking-wide font-medium border-2 border-gray-500 rounded-full text-lg hover:border-teal-600'>My resume</button>
         </div> 
     </div>
