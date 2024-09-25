@@ -46,6 +46,7 @@ const Navbar = () => {
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/about" >About</NavLink>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/skills" >Skills</NavLink>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/services" >Services</NavLink>
+                <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/contact" >Contact Me</NavLink>
             </div>
         </div>
        
