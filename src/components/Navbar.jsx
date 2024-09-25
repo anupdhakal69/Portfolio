@@ -29,7 +29,7 @@ const Navbar = () => {
             <NavLink to='/about'>About</NavLink>
           </li>
           <li>
-            <NavLink to='/skills'>Skills</NavLink>
+            <NavLink to='/portfolio'>Portfolio</NavLink>
           </li>
           <li>
             <NavLink to='/services'>Services</NavLink>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <IoClose className='text-3xl cursor-pointer my-4 absolute right-3' onClick={toggleMenu}/>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl mt-12" to="/" >Home</NavLink>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/about" >About</NavLink>
-                <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/skills" >Skills</NavLink>
+                <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/portfolio" >Portfolio</NavLink>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/services" >Services</NavLink>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl" to="/contact" >Contact Me</NavLink>
             </div>

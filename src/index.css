@@ -12,5 +12,12 @@
 }
 
 .active{
-    color: #0f766e;
+    color: transparent;
+    background: linear-gradient(90deg, rgb(8, 128, 128),#0d516b );
+    background-clip: text;
+}
+.herospan{
+    color: transparent;
+    background: rgb(2,0,36);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(49, 119, 54) 0%, rgb(38, 111, 126) 100%);
+    background-clip: text;
 }
