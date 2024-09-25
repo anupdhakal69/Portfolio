@@ -21,7 +21,7 @@ const Navbar = () => {
 
        <TbMenuDeep className='sm:hidden text-3xl cursor-pointer mr-6' onClick={toggleMenu}/>
 
-       <ul className='hidden sm:flex gap-12 text-lg font-medium tracking-wide'>
+       <ul className='hidden sm:flex gap-12 text-xl font-medium tracking-wide'>
           <li>
             <NavLink to='/'>Home</NavLink>
           </li>
@@ -36,7 +36,7 @@ const Navbar = () => {
           </li>
        </ul>
 
-       <button className='hidden sm:block bg-teal-700 hover:bg-teal-900 duration-200 text-white py-2 px-5 rounded-full'> <Link to='/contact'> Contact Me </Link> </button>
+       <button className='hidden sm:block border bg-gradient-to-r from-cyan-500 to-teal-500 text-lg text-white hover:bg-gradient-to-tl tracking-wide py-2 px-5 rounded-full'> <Link to='/contact'> Contact Me </Link> </button>
 
        {/* sidebar menu for mobile screens */}
         <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-gray-300 transition-all ${showMenu ? 'w-1/2':'w-0'}`}>
