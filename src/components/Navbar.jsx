@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='h-16 w-full flex justify-between sm:justify-evenly items-center '>
+    <div className='h-20 w-full flex justify-between sm:justify-evenly items-center '>
 
        <Link to={'/'}>
          <img src="../logo2.png" alt="" className=' w-40 '/>
