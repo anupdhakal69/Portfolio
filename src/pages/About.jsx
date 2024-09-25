@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-   <div className='max-w-[90vw] sm:max-w-[70vw]  mx-auto min-h-[calc(100vh-80px)] flex flex-col gap-10 justify-center items-center sm:flex-row'>
+   <div className='max-w-[90vw] sm:max-w-[70vw] md:max-w-[80vw]  mx-auto min-h-[calc(100vh-80px)] flex flex-col gap-10 justify-center items-center sm:flex-row'>
 
          <div className=' flex flex-col gap-3 sm:max-w-[55%] sm:order-2 '>
 
