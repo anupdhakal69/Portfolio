@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import About from './pages/About'
-import Services from './pages/Services'
+import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import { ToastContainer, Zoom ,Slide, Flip} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -20,7 +20,7 @@ const App = () => {
       <Routes>
         <Route path='/' element= {<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/services' element={<Services />} />
+        <Route path='/skills' element={<Skills />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/portfolio' element={<Portfolio />} />
       </Routes>
