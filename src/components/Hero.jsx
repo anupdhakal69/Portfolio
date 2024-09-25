@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
 
-    <div className='px-2 mt-12 max-w-[400px] flex flex-col gap-5 items-center justify-center sm:max-w-[920px]  mx-auto h-full'>
+    <div className='px-2 max-w-[400px] flex flex-col gap-5 items-center justify-center sm:max-w-[920px]  mx-auto h-[calc(100vh-80px)]'>
 
         <img src="anup.jpg" alt="" className='h-48 sm:h-60 w-48 sm:w-60 object-cover rounded-full'/>
 
@@ -12,7 +12,7 @@ const Hero = () => {
           <p className='text-center text-md sm:w-[600px] mx-auto font-medium text-gray-700'>I am a frontend developer from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.</p>
         </div>
 
-        <div className='flex gap-5'>
+        <div className='flex gap-5 mb-8'>
           <button className='py-2 px-7 tracking-wide font-medium border rounded-full bg-gradient-to-r from-teal-500 to-sky-500 text-lg text-white'>Hire Me</button>
           <button className='py-2 px-7 tracking-wide font-medium border-2 border-gray-500 rounded-full text-lg hover:border-teal-600'>My resume</button>
         </div>

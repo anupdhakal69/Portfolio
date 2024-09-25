@@ -14,7 +14,7 @@ import Portfolio from './pages/Portfolio'
 
 const App = () => {
   return (
-    <div > 
+    <div> 
       <Navbar />
       {/* <ToastContainer theme='dark' autoClose={2500} transition={Flip} position='top-right'/> */}
       <Routes>
