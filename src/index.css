@@ -21,6 +21,3 @@
     background: rgb(2,0,36);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(49, 119, 54) 0%, rgb(38, 111, 126) 100%);
     background-clip: text;
 }
-body{
-    overflow: hidden;
-}

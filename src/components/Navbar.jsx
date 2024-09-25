@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='h-20 w-full flex justify-between sm:justify-evenly items-center '>
 
        <Link to={'/'}>
-         <img src="../logo2.png" alt="" className=' w-40 '/>
+         <img src="../logo2.png" alt="" className=' w-40 h-20 object-cover'/>
        </Link>
 
        <TbMenuDeep className='sm:hidden text-3xl cursor-pointer mr-6' onClick={toggleMenu}/>
