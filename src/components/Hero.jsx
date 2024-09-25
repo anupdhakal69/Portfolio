@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
 
-    <div className='px-2 mt-10 max-w-[400px] flex flex-col gap-5 items-center sm:max-w-[920px]  mx-auto h-full'>
+    <div className='px-2 mt-12 max-w-[400px] flex flex-col gap-5 items-center justify-center sm:max-w-[920px]  mx-auto h-full'>
 
         <img src="anup.jpg" alt="" className='h-48 sm:h-60 w-48 sm:w-60 object-cover rounded-full'/>
 
