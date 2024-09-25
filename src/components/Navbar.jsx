@@ -39,7 +39,7 @@ const Navbar = () => {
        <button className='hidden sm:block border bg-gradient-to-r from-cyan-500 to-teal-500 text-lg text-white hover:bg-gradient-to-tl tracking-wide py-2 px-5 rounded-full hover:scale-110 ease-linear duration-200'> <Link to='/contact'> Contact Me </Link> </button>
 
        {/* sidebar menu for mobile screens */}
-        <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-gray-300 transition-all ${showMenu ? 'w-1/2':'w-0'}`}>
+        <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-gray-200 transition-all ${showMenu ? 'w-1/2':'w-0'}`}>
             <div className='flex flex-col font-medium'>
                 <IoClose className='text-3xl cursor-pointer my-4 absolute right-3' onClick={toggleMenu}/>
                 <NavLink onClick={toggleMenu} className="py-3 pl-6 text-xl mt-12" to="/" >Home</NavLink>
