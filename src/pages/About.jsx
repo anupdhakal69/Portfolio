@@ -9,7 +9,7 @@ const About = () => {
          <div className=' flex flex-col gap-3 sm:max-w-[55%] sm:order-2 order-1'>
               <h1 className='abouth1 sm:text-start text-4xl sm:text-5xl font-medium pt-4 sm:py-0'>About Me</h1>
 
-              <p className='text-gray-700 text-lg text-justify font-medium tracking-wide'> Hey, I'm Anup Dhakal. My love for coding began when I discovered how much fun it is to build things from scratch. Currently studying for my Bachelor's in Computer Applications, I’ve already worked on exciting projects. I thrive on challenges, especially when it comes to learning new tech like React and Node.js. </p>
+              <p className='text-gray-700 text-lg text-justify font-medium tracking-wide'> Hey, I'm Anup Dhakal.  Currently studying for my Bachelor's in Computer Applications, I’ve already worked on exciting projects. I thrive on challenges, especially when it comes to learning new tech like React and Node.js. </p>
 
               <p className='text-gray-700 text-lg text-justify font-medium tracking-wide'>Outside of coding, I love exploring new languages and diving into insightful books that inspire creativity. I'm always open to new opportunities and connections, so feel free to reach out!</p>
               

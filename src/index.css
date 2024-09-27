@@ -23,7 +23,7 @@
     background-clip: text;
 }
 
-.abouth1,.formh1,.socials{
+.abouth1,.skillsh1,.formh1,.socials{
     color: transparent;
     background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(16, 97, 129) 0%, rgb(39, 243, 243) 100%);
     background-clip: text;
