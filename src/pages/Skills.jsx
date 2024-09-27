@@ -3,11 +3,11 @@ import React from "react";
 const Skills = () => {
   return (
   <div className="max-w-[90vw] mx-auto min-h-[calc(100vh-80px)] tracking-wide">
-      <h1 className="text-gray-700 text-4xl text-center font-bold uppercase skillsh1 pt-6">My Skills</h1>
+      <h1 className="text-gray-700 text-4xl text-center font-bold font-serif uppercase skillsh1 pt-6">My Skills</h1>
       {/* <p className="text-lg font-medium text-gray-700 text-center">I’ll keep learning new technologies and expanding my skills.</p> */}
 
-    <div className="grid gap-6 lg:grid-cols-3 mt-7 ">
-
+    <div className="grid gap-7 lg:grid-cols-3 mt-7 ">
+ 
       {/* frontend */}
       <div className="bg-gray-50 p-4 rounded-md shadow transition-all duration-300 shadow-gray-300 hover:shadow-lg hover:shadow-gray-400 hover:scale-[1.03]">
         <h1 className="skillsh1 font-serif text-2xl font-semibold uppercase">Front-end</h1>
