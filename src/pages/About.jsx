@@ -7,7 +7,7 @@ const About = () => {
    <div className='max-w-[90vw] sm:max-w-[70vw] md:max-w-[80vw]  mx-auto min-h-[calc(100vh-80px)] flex flex-col gap-10 justify-center items-center sm:flex-row'>
 
          <div className=' flex flex-col gap-3 sm:max-w-[55%] sm:order-2 order-1'>
-              <h1 className='abouth1 sm:text-start text-4xl sm:text-5xl font-medium pt-4 sm:py-0'>About Me</h1>
+              <h1 className='abouth1 sm:text-start text-4xl  font-semibold pt-4 sm:py-0'>About Me</h1>
 
               <p className='text-gray-700 text-lg text-justify font-medium tracking-wide'> Hey, I'm Anup Dhakal.  Currently studying for my Bachelor's in Computer Applications, I’ve already worked on exciting projects. I thrive on challenges, especially when it comes to learning new tech like React and Node.js. </p>
 
