@@ -2,13 +2,13 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="max-w-[90vw] mx-auto gap-16  flex flex-col sm:flex-row min-h-[calc(100vh-80px)] justify-center   items-center">
+    <div className="max-w-[90vw] mx-auto gap-14  flex flex-col sm:flex-row min-h-[calc(100vh-80px)] justify-center   items-center">
         
-        <div className='left sm:max-w-[40%] shadow-md shadow-slate-500'>
+        <div className='left sm:max-w-[40%]  shadow-md shadow-slate-500'>
             <img src="work.jpg" alt="" loading='lazy'/>
         </div>
 
-        <div className='right '>
+        <div className='right pr-2'>
             <form className='flex flex-col gap-3 '>
                 <h1 className='formh1 text-3xl sm:text-4xl font-medium my-[-5px]'>Contact Me</h1>
                 <p className='text-gray-600 text-base sm:text-lg font-medium'>Have a question or want to work together? Feel free to reach out!</p>
