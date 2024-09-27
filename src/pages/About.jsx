@@ -24,7 +24,7 @@ const About = () => {
          </div>
 
 
-         <img src="anup.jpg" alt="" className='h-80 w-screen sm:w-72 sm:max-w-[45%] object-cover rounded-lg  sm:order-1 order-2'/>
+         <img src="anup.jpg" alt="" className='h-80 shadow-sm shadow-slate-700 w-screen sm:w-72 sm:max-w-[45%] object-cover rounded  sm:order-1 order-2'/>
 
    </div>
   )

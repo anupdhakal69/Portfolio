@@ -6,7 +6,7 @@ import youtube from "../assets/youtube.svg"
 const Hero = () => {
   return (
 
-    <div className='px-2 max-w-[400px] flex flex-col gap-5 items-center justify-center sm:max-w-[900px]  mx-auto h-[calc(100vh-80px)]'>
+    <div className='px-2 max-w-[400px] flex flex-col gap-5 items-center justify-center sm:max-w-[900px]  mx-auto min-h-[calc(100vh-80px)]'>
 
         <img src="anup.jpg" alt="" className='h-48 sm:h-56 w-48 sm:w-56 object-cover rounded-full'/>
 
