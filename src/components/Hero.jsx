@@ -22,7 +22,9 @@ const Hero = () => {
 
         <div className='flex gap-5 mb-12 sm:mb-0 transition-all'>
           <button className='py-2 px-7 tracking-wide font-medium border rounded-full bg-gradient-to-r from-teal-500 to-sky-500 text-lg text-white hover:scale-110 ease-in-out duration-200'>Hire Me</button>
-          <button className='py-2 px-7 tracking-wide font-medium border-2 border-gray-500 rounded-full text-lg hover:border-teal-600'>My resume</button>
+          <a href="anupcv.pdf" download>
+          <button className='py-2 px-7 tracking-wide font-medium border-2 border-gray-500 rounded-full text-lg hover:border-teal-600 active:scale-95'>My resume</button>
+          </a>
         </div> 
     </div>
   )
