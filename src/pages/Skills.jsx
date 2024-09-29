@@ -6,14 +6,14 @@ const Skills = () => {
       <h1 className="text-gray-600 text-4xl text-center font-bold font-serif uppercase  pt-7">My Skills</h1>
       {/* <p className="text-lg font-medium text-gray-700 text-center">I’ll keep learning new technologies and expanding my skills.</p> */}
 
-    <div className="grid gap-7 lg:gap-10 lg:grid-cols-3 mt-9 ">
+    <div className="grid gap-7 lg:gap-10 md:grid-cols-2 lg:grid-cols-3 mt-9 ">
  
       {/* frontend */}
       <div className="bg-gray-50 p-4 rounded-md shadow transition-all duration-300 shadow-gray-400 hover:shadow-lg hover:shadow-gray-400 hover:scale-[1.04]">
         <h1 className="skillsh1 font-serif text-2xl font-semibold uppercase">Front-end</h1>
         <hr className="mt-2 h-0.5 bg-gray-400"/>
         <p className="text-gray-800 font-medium text-lg text-justify my-3"><span className="text-teal-700">HTML</span> is used to structure web pages, while <span className="text-teal-700">CSS</span> and <span className="text-teal-700">Tailwind CSS</span> provide styling and design. <span className="text-teal-700 ">JavaScript</span> and <span className="text-teal-700">React</span> bring interactivity and dynamic features to the interface, and <span className="text-teal-700">Bootstrap</span> is great for creating responsive layouts quickly.</p>
-        <ul className="flex gap-3 justify-center  ">
+        <ul className="flex gap-3 justify-center ">
           <img src="html.png" alt="HTML" className="w-8" />
           <img src="css.png" alt="CSS" className="w-8" />
           <img src="javascript.png" alt="JavaScript" className="w-8" />

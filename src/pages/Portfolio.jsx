@@ -3,11 +3,27 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div className="max-w-[90vw] mx-auto flex justify-center items-center min-h-[calc(100vh-80px)]  bg-gray-50">
+    <div className="max-w-[90vw] mx-auto flex justify-center items-center min-h-[calc(100vh-80px)] ">
 
-      <div className='h-[55vh] w-60 bg-gray-300'>
-        
+      <div className='h-[55vh] w-60 '>
+        <h1 className='text-3xl font-semibold skillsh1'>Bulb</h1>
+        <a href="http://anupkobulb.netlify.app" target='main' className=' text-blue-500'>Live preview</a>
+        <p className='font-medium text-gray-700'>This was my first ever project hosted on internet. It's simple but yet one of my favorites.</p>
       </div>
+
+      <div className='h-[55vh] w-60 '>
+        <h1 className='text-3xl font-semibold skillsh1'>Expense tracker</h1>
+        <a href="http://anupkoexpensetracker.netlify.app" target='main' className='flex text-blue-500'>Live preview <img src="linkarrow.png" alt="" className='w-5'/></a>
+        <p className='font-medium text-gray-700'>Expense tracker is the useful tool to get a idea of what and how much are you spending on your day to day expenses.</p>
+      </div>
+
+      <div className='h-[55vh] w-60 '>
+        <h1 className='text-3xl font-semibold skillsh1'>Expense tracker</h1>
+        <a href="http://anupkoexpensetracker.netlify.app" target='main' className=' text-blue-500'>Live preview</a>
+        <p className='font-medium text-gray-700'>Expense tracker is the useful tool to get a idea of what and how much are you spending on your day to day expenses.</p>
+      </div>
+
+
     </div>
   )
 }
