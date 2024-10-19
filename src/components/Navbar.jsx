@@ -21,7 +21,7 @@ const Navbar = () => {
 
        <TbMenuDeep className='md:hidden text-3xl cursor-pointer mr-6' onClick={toggleMenu}/>
 
-       <ul className='hidden md:flex gap-12 text-xl font-medium tracking-wide'>
+       <ul className='hidden md:flex gap-12 text-xl text-gray-800 font-medium tracking-wide'>
           <li>
             <NavLink to='/'>Home</NavLink>
           </li>
