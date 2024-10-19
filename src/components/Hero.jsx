@@ -11,8 +11,8 @@ const Hero = () => {
         <img src="anup.jpg" alt="" className='h-48 sm:h-56 w-48 sm:w-56 object-cover rounded-full'/>
 
         <div className='flex flex-col gap-4'> 
-          <h1 className='text-[35px] sm:text-4xl text-gray-800 md:text-6xl text-center font-semibold md:font-medium leading-tight'> <span className='herospan'>I'm Anup Dhakal,</span> FullStack developer based in Nepal.</h1>
-          <p className='text-center text-md sm:w-[600px] mx-auto font-medium text-gray-700'>I am a frontend developer from Kathmandu, Nepal with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.</p>
+          <h1 className='text-[35px] sm:text-4xl text-gray-800 md:text-6xl text-center font-semibold md:font-medium leading-tight'> <span className='herospan'>I'm Anup Dhakal,</span> web developer based in Nepal.</h1>
+          <p className='text-center text-md sm:w-[600px] mx-auto font-medium text-gray-700'>I am a full stack developer from Kathmandu, Nepal with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.</p>
         </div>
 
         {/* <div className="socials flex gap-4 my-[-8px]">
@@ -22,7 +22,7 @@ const Hero = () => {
 
         <div className='flex gap-5 mb-12 sm:mb-0 transition-all'>
           <button className='py-2 px-7 tracking-wide font-medium border rounded-full bg-gradient-to-r from-teal-500 to-sky-500 text-lg text-white hover:scale-110 ease-in-out duration-200'>Hire Me</button>
-          <a href="anup-resume.pdf">
+          <a href="resume-anup.pdf">
           <button className='py-2 px-7 tracking-wide font-medium border-2 border-gray-500 rounded-full text-lg hover:border-teal-600 active:scale-95'>My resume</button>
           </a>
         </div> 
