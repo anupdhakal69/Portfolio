@@ -23,7 +23,7 @@ const Portfolio = () => {
         <p className='font-medium text-gray-700'>Expense tracker is the useful tool to get a idea of what and how much are you spending on your day to day expenses.</p>
       </div>
 
-
+        <p classname='text-5xl text-blue-700 font-semibold'>This page is not completed</p>
     </div>
   )
 }
